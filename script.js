@@ -27,7 +27,8 @@ function scrollToSection(id) {
   =============================================================== */
   function mostrarMensagem(event) {
     event.preventDefault();
-    alert("Obrigado por sua compra! Entraremos em contato em breve.");
+    // Redireciona para a página de agradecimento
+    window.location.href = "obrigado.html";
   }
   
   /* ===============================================================
