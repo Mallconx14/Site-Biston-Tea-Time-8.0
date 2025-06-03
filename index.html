@@ -212,12 +212,12 @@
       <div class="contador-container" id="contador">
         <!-- O contador será atualizado em tempo real via JavaScript -->
       </div>
-      <form class="comprar-form" onsubmit="mostrarMensagem(event)">
-        <input type="text" placeholder="Seu Nome" required>
-        <input type="email" placeholder="Seu E-mail" required>
-        <input type="tel" placeholder="Seu Telefone" required>
+      <form class="comprar-form" action="obrigado.html" method="GET" onsubmit="return validarFormulario(event)">
+        <input type="text" placeholder="Seu Nome" required name="nome">
+        <input type="email" placeholder="Seu E-mail" required name="email">
+        <input type="tel" placeholder="Seu Telefone" required name="telefone">
         <button type="submit">Reservar Oferta</button>
-      </form>
+    </form>
     </div>
   </section>
   <!-- ************************************************************* -->
